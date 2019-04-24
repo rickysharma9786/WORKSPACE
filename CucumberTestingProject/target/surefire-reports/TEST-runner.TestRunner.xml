@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="0" name="runner.TestRunner" time="0.008" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\MyTestingWork\MyWorkspace\JAVA\eclipse\MyWork\CucumberTestingProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\MyTestingWork\MyWorkspace\JAVA\eclipse\MyWork\CucumberTestingProject"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\nitish\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\MyTestingWork\MyWorkspace\JAVA\eclipse\MyWork\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf636256509198558398.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\MyTestingWork\MyWorkspace\JAVA\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/MyTestingWork/MyWorkspace/JAVA/JRE/bin/server;C:/MyTestingWork/MyWorkspace/JAVA/JRE/bin;C:/MyTestingWork/MyWorkspace/JAVA/JRE/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%JAVA_HOME%\bin;C:\Users\nitish\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.2\bin;;C:\Users\nitish\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\nitish"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="nitish"/>
+    <property name="java.class.path" value="C:\Users\nitish\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\lib\resources.jar;C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\lib\rt.jar;C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\lib\sunrsasign.jar;C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\lib\jsse.jar;C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\lib\jce.jar;C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\lib\charsets.jar;C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\lib\jfr.jar;C:\MyTestingWork\MyWorkspace\JAVA\JDK\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\MyTestingWork\MyWorkspace\JAVA\eclipse\MyWork\CucumberTestingProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Login to the application Linkedin.com" name="Given Open Chrome browser and launch the application" time="0.008"/>
+  <testcase classname="Scenario: Login to the application Linkedin.com" name="When User click on the SignIn Button" time="0"/>
+  <testcase classname="Scenario: Login to the application Linkedin.com" name="When User enters the username and password onto the UserName and password field" time="0"/>
+  <testcase classname="Scenario: Login to the application Linkedin.com" name="When User clicks on the Login button" time="0"/>
+  <testcase classname="Scenario: Login to the application Linkedin.com" name="Then Validate if the user login is successful" time="0"/>
+  <testcase classname="Scenario: Login to the application Linkedin.com" name="Then Close the browser" time="0"/>
+  <testcase classname="Scenario: Login to the application Linkedin.com" name="Scenario: Login to the application Linkedin.com" time="0"/>
+</testsuite>
